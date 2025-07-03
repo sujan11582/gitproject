@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<!-- 
+form Method
+get 
+to fetch data frpom server
+post
+to pass data to server
+eg: register, login
+ -->
+
+
+<body>
+   <form>
+
+    <label for="form">First Name</label>
+    <input type="text" id="fname" name="first_name" size="20" required placeholder="Enter your first name" minlength="3" maxlength="3" autocomplete="off" value=""><br>
+    <label for="form">Last Name</label>
+    <input type="text" id="lname" name="last_name" size="20" required placeholder="Enter your last name" minlength="3" maxlength="3" value=""><br>
+    <label for="form">Age</label>
+    <input type="number" id="age" name="age" min="18"><br>
+    <label for="dob">Date of birth</label>
+    <input type="date" id="dob" name="date_of_birth" min="2001-01-05" max="2025-06-06"><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email_address"><br>
+    <label for="password" id="password" name="pass">Password</label>
+    <input type="password" id="password" name="pass"><br>
+    <label for="description">About yourself:</label>
+    <textarea name="desc" id="description" row="5"></textarea><br>
+    <label for="address">Address</label>
+    <select name="address" id="add">
+        <option value="" disabled selected>select your city</option>
+        <option value="Kathmandu">Kathmandu</option>
+        <option value="Lalitpur">Lalitpur</option>
+        <option value="Bhaktapur">Bhaktapur</option>
+
+
+    </select>
+    <br>
+    
+    <label for="hobby">Hobbies</label><br>
+    <h8>1.</h8>
+    <input type="checkbox" id="rr" name="hobby" checked value="read">
+    <label for="rr">Reading Books</label>
+    <br>
+    <h8>2.</h8><input type="checkbox" id="rr" name="hobby" checked value="read">
+   
+    <label for="rr">Lay</label>
+
+    
+    <br><h8>3.</h8><input type="checkbox" id="rr" name="hobby" checked value="read"> <label for="rr">Sleep</label>
+   <br>
+
+    <h8>4.</h8> <input type="checkbox" id="rr" name="hobby" checked value="read"><label for="rr">Eat</label>
+    
+    <br>
+
+    <label for="gen"> Gender:</label>
+    <input type="radio" name="Gender" id="m" value="male" > <label for="m">male</label>
+<!--  -->
+    <button>Submit</button>
+   </form>
+</body>
+</html>
